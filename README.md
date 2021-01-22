@@ -4,22 +4,22 @@
 
 
 
-### R
+### Rbase
 
 
 
 
-### R spatial
+### Rspatial
 
 
 
 
-### RStudio Server
+### RStudioServer
 
 
 
 
-### Shiny Server
+### ShinyServer
 
 
 
