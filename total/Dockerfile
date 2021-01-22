@@ -1,18 +1,20 @@
-# Download base image ubuntu 20.04 or use "latest" instead. See https://hub.docker.com/_/ubuntu
+# Download base image stable ubuntu 20.04 or use "latest" instead. See https://hub.docker.com/_/ubuntu
 FROM ubuntu:20.04.1
 
 # Describe person in charge of Dockerfile
 MAINTAINER Luca l.valnegri@datamaps.co.uk
  
-# Set constants
+# Set constants for share group and folder 
 ARG PUB_GRP=public
 ARG PUB_PATH=/usr/local/share/$PUB_GRP
+
+# Set constants for non-root user 
 ARG USERNAME=datamaps
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID 
 
 RUN 
-    # Update software repository + Upgrade system
+    # Update package manager sources list
     apt update \
     # Avoid interactive keyboard requests
     && DEBIAN_FRONTEND=noninteractive TZ=Europe/London apt install -y tzdata \
