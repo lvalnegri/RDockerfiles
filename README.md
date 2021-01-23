@@ -1,4 +1,4 @@
-## Dockerfiles
+## Dockerfiles to build *R* conotainers
 
 ### base
  - Ubuntu 20.04 LTS full upgraded
@@ -37,7 +37,15 @@ An alternative minimum package installation for the tidyverse user:
 ### RSS: R + ShinyServer (RSSm or RSSs)
  - 
 
+I suggest you run a single app on any container. To make it viewable through an `nginx` server installed on the host machine, run the container using the following command:
+```
 
-### plumber
- - 
+```
+making changes where needed. Then add in the `nginx` configuration the following *block* in the `server` directive:
+```
+
+```
+
+### Rapi
+ - plumber + future
 
