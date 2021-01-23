@@ -11,15 +11,16 @@
 
 
 ### Rmin
-A minimum package installation:
- - devtools, usethis, roxygen2
+My preferred minimum package installation:
+ - data.table, fst
  - ggplot2
- - data.table
  - htmlwidgets, DT, dygraphs, leaflet
+ - mlr3, caret, randomForest, XGBoost, glmnet
  - rmarkdown, shiny, xaringan, 
+ - devtools, usethis, roxygen2
 
 ### Rtidy
-An alternative minimum package installation for the tidyverse user:
+An alternative minimum package installation for the *tidyverse* user:
  - tidyverse, tidymodels
  - htmlwidgets, DT, dygraphs, mapview
  - rmarkdown, shiny
