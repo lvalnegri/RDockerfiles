@@ -1,4 +1,5 @@
-## Dockerfiles to build *R* conotainers
+## Dockerfiles to build *R* containers
+Notice that the following builds are supposed to be used on systems with a shared *public* repository as explained in [this repo](), therefore taking advantages of software and configurations already present on the host, like an *Nginx* web server and an *R* package library.  
 
 ### base
  - Ubuntu 20.04 LTS full upgraded
