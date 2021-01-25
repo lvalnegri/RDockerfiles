@@ -23,8 +23,8 @@ My preferred minimum package installation:
 ### Rtidy
 An alternative minimum package installation for the *tidyverse* user:
  - tidyverse, tidymodels
- - htmlwidgets, DT, dygraphs, mapview
- - rmarkdown, shiny
+ - htmlwidgets, DT, plotly, dygraphs, mapview
+ - rmarkdown, shiny, xaringan
 
 ### Rspatial
  - `Rmin`
