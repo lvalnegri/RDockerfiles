@@ -1,4 +1,5 @@
-## Dockerfiles to build *R* conotainers
+## Dockerfiles to build *R* containers
+Notice that the following builds are supposed to be used on systems with a shared *public* repository as explained in [this repo](), therefore taking advantages of software and configurations already present on the host, like an *Nginx* web server and an *R* package library.  
 
 ### base
  - Ubuntu 20.04 LTS full upgraded
@@ -22,8 +23,8 @@ My preferred minimum package installation:
 ### Rtidy
 An alternative minimum package installation for the *tidyverse* user:
  - tidyverse, tidymodels
- - htmlwidgets, DT, dygraphs, mapview
- - rmarkdown, shiny
+ - htmlwidgets, DT, plotly, dygraphs, mapview
+ - rmarkdown, shiny, xaringan
 
 ### Rspatial
  - `Rmin`
